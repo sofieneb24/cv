@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Rethink+Sans&family=Rubik:wght@300&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Rethink+Sans&family=Rubik:wght@300&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=IBM+Plex+Sans+Condensed:wght@500&family=Rethink+Sans&family=Rubik:wght@300&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@300&family=Teko&display=swap');
+
+
+body {
+    background-color:rgb(1, 1, 42);
+}
+
+/* Style des Boutons */
+.page {
+    padding: 7px 30px;
+    font-size: 17px;
+    background-color: #ffffff2d;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    transition: background-color 0.2s ease;
+}
+
+.page:hover {
+    background-color: #00000036;
+}
+
+.interactcv {
+    padding: 5px 20px;
+    font-size: 17px;
+    background-color: #015bae2d;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    transition: background-color 0.2s ease;
+}
+
+.interactcv:hover {
+    background-color: #015aae5a;
+}
+
+
+/* Style du CV1*/
+
+#CV1 h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#CV1 h2 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 20px;
+}
+
+#CV1 a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#CV1 a:hover {
+    color: rgb(16, 110, 164);
+}
+
+#CV1 header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.901);
+    max-width: 720px; 
+    box-sizing: border-box; 
+    margin: 0 auto;
+    color:rgb(255, 255, 255);
+}
+
+#CV1 aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding-left: 50px;
+    padding-right: 100px;
+    color:white;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 220px;
+}
+
+#CV1 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: rgba(4, 4, 4, 0.862);
+    padding-left: 100px;
+    padding-right: 50px;
+    color:white;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 200px;
+}
+
+#CV1 main > h2 {
+    text-align: center;
+}
+
+#CV1 main > li {
+    text-align: flex-start;
+}
+
+#CV1 footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.901);
+    max-width: 720px; 
+    box-sizing: border-box; 
+    margin: 0 auto;
+    color:white;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Style du CV2*/
+
+#CV2 h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+#CV2 h2 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#CV2 a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#CV2 a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#CV2 li {
+    font-size: 20px;
+}
+
+#CV2 header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(102, 17, 103, 0.597);
+    max-width: 648px; 
+    box-sizing: border-box; 
+    margin: 0 auto;
+}
+
+#CV2 aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.389);
+    padding-left: 50px;
+    padding-right: 100px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(248, 189, 250);
+    text-shadow: 2px 2px 4px rgba(0.9, 0.9, 0.9, 0.9);
+    
+}
+
+#CV2 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.503);
+    padding-left: 100px;
+    padding-right: 50px;
+    color: rgb(248, 189, 250);
+    font-family: 'Teko', sans-serif;
+    text-shadow: 3px 3px 4px rgba(0.9, 0.9, 0.9, 0.9);
+}
+
+#CV2 footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(102, 17, 103, 0.597);
+    max-width: 648px; 
+    box-sizing: border-box; 
+    margin: 0 auto;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+
+
+/* Style CV1 & CV2*/
+
+#pfp {
+    width: 170px;
+}
+
+.corps {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* REPONSIVE */
+
+@media only screen and (max-width: 600px) {
+
+body {
+    font-size: 16px; 
+    line-height: 1.6;
+}
+
+#CV1 aside, #CV2 aside, #CV1 main, #CV2 main {
+    width: 100vw;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+#CV2 aside, #CV1 ASIDE {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+#pfp {
+    width: 100%; 
+    height: auto; 
+    max-width: 160px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+header {
+    height: 80px;
+}
+
+h2 {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 60px;
+}
+
+}

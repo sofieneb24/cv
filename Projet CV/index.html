@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="page"onclick="afficherContenu(1)">CV MIKE</button>
+    <button class="page"onclick="afficherContenu(2)">CV JOHN</button>
+    <div id="CV1" style="display: none;">
+    <header>
+        <h1>Intégrateur Web</h1>
+    </header>
+      <div class="corps">
+        <aside>
+            <img id="pfp" src="https://s.lorientlejour.com/storage/attachments/1334/283330_615070.png/r/800/283330_615070.png">
+            <h2>MIKE ENSOM</h2>
+
+            <h2>Coordonées</h2>
+            <button class="interactcv" onclick="changerContenuCoordonnees()">Privé/Pro</button>
+            <ul id="coordonneesListe">
+                <li>06.81.43.87.98</li>
+                <li>ensomike3@gmail.com</li>
+                <li>23 Rue de Rivoli, Paris</li>
+            </ul>
+            <h2>soft skills</h2>
+            <button class="interactcv" onclick="changerContenuSoftskills()">Autres</button>
+            <ul id="softskillsListe">
+                <li>Autonome</li>
+                <li>Polyvalent</li>
+                <li>Tosa Python 3</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+
+            <h2>Langues</h2>
+            <button class="interactcv" onclick="changerContenuLangues()">Europe/Asie</button>
+            <ul id="languesListe">
+                <li>Anglais</li>
+                <li>Francais</li>
+                <li>Espagnol</li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Exp pro</h2>
+            <button class="interactcv" onclick="premiereListe()">Afficher/Masquer</button>
+             <ul id="expproListe">
+                <li>IBM :2000</li>
+                <li>Apple</li>
+                <li>MS</li>
+             </ul>
+
+            <h2>parcours aca</h2>
+            <button class="interactcv" onclick="deuxiemeListe()">Afficher/Masquer</button>
+            <ul id="parcoursacaListe">
+                <li>AFIP</li>
+                <li>UNIV P8</li>
+            </ul>
+
+            <h2>Stages</h2>
+            <button class="interactcv" onclick="troisiemeListe()">Afficher/Masquer</button>
+            <ul id="stagesListe">
+                <li>Open AI</li>
+                <li>DevMain</li>
+            </ul>
+
+            <h2>Hobbies</h2>
+            <button class="interactcv" onclick="quatriemeListe()">Afficher/Masquer</button>
+            <ul id="hobbiesListe">
+                <li>Foot</li>
+                <li>Cinéma</li>
+                <li>Codage</li>
+            </ul>
+
+        </main>
+      </div>
+
+    <footer>
+        <nav>
+            <li><a href="www.linkdin.com/MikeEnsom">Linkdin</a></li>
+            <li><a href="www.x.com/MikeEnsom">Twitter</a></li>
+        </nav>
+    </footer>
+    </div>
+    <div id="CV2" style="display: none;">
+        <header>
+            <h1>Astronaute</h1>
+        </header>
+          <div class="corps">
+            <aside>
+                <img id="pfp" src="https://t4.ftcdn.net/jpg/05/67/37/47/360_F_567374746_0PjVI6Hy1l7AfRbqlHiZz3GJHcp9Eet0.jpg">
+                <h2>JOHNNY BLUI</h2>
+    
+                <h2>Coordonées</h2>
+                <ul>
+                    <li>555-0198</li>
+                    <li>ngc7000@mac.com</li>
+                    <li>Merritt Island, FL 32953</li>
+                </ul>
+                <h2>soft skills</h2>
+                <ul>
+                    <li>Facilité d'adapation</li>
+                    <li>Leadership</li>
+                    <li>Respect</li>
+                    <li>Vision</li>
+                </ul>
+    
+                <h2>Langues</h2>
+                <ul>
+                    <li>Anglais</li>
+                    <li>Chinois</li>
+                    <li>Arabes</li>
+                    <li>Francais</li>
+                </ul>
+            </aside>
+            <main>
+                <h2>EXP PRO</h2>
+                 <ul>
+                    <li>Space x</li>
+                    <li>Ze Astronaut</li>
+                    <li>ASC Canada</li>
+                 </ul>
+    
+                <h2>PARCOURS ACA</h2>
+                <ul>
+                    <li>IPSA</li>
+                    <li>ESA PARIS</li>
+                </ul>
+    
+                <h2>STAGES</h2>
+                <ul>
+                    <li>Nasa</li>
+                    <li>CASC</li>
+                    <li>UAESA</li>
+                    <li>SSA</li>
+                </ul>
+
+                <h2>HOBBIES</h2>
+                <ul>
+                    <li>Lecture</li>
+                    <li>Photographie</li>
+                    <li>Equitation</li>
+                </ul>
+    
+            </main>
+          </div>
+    
+        <footer>
+            <nav>
+                <li><a href="www.linkdin.com/johnb">Linkdin</a></li>
+                <li><a href="www.x.com/johnb">Twitter</a></li>
+            </nav>
+        </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
